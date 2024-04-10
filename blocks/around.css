@@ -23,21 +23,26 @@
   display: flex;
   align-items: center;
   padding-top: 40px;
+  margin-bottom: 51px;
+}
+
+.profile__title-wrapper {
+  display: flex;
+  align-items: baseline;
 }
 
 .profile__info {
-  display: grid;
-  grid-template-areas:
-    "title buttons"
-    "description description";
-  grid-template-columns: minmax(auto, 373px) auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .profile__edit-button {
   background: transparent url(../card-images/edit-button.svg) center no-repeat;
   height: 24px;
   width: 24px;
-  grid-area: button;
+  margin-left: 16px;
+  border: 1px solid white;
 }
 
 .profile__add-button {
@@ -45,6 +50,7 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
+  border: 1px solid white;
 }
 
 .profile__title {
@@ -94,6 +100,7 @@
 .card__image {
   width: 282px;
   height: 282px;
+  border-radius: 10px 10px 0 0;
 }
 
 .card__description {
@@ -104,9 +111,7 @@
   background-color: white;
   padding: 25px 20px 25px 20px;
   max-height: 79px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  border-radius: 0 0 10px 10px;
 }
 
 .card__like-button {
@@ -114,4 +119,13 @@
   height: 18px;
   width: 21px;
   border: none;
+  min-width: 21px;
+}
+
+.card__text {
+  max-width: 219px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 24px;
 }
