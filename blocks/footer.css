@@ -1,4 +1,4 @@
-.footer__copywright {
+.footer {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -7,4 +7,5 @@
   /* text-align: left; */
   color: #545454;
   align-items: center;
+  padding: 67px 0 60px 0;
 }
