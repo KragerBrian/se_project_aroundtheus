@@ -1,10 +1,20 @@
-/* .header {
-  margin: 28px 45px 28px 45px;
+.header {
   width: 126px;
-} */
-
-.header__divider {
   border-bottom: 1px solid #545454;
-  flex-grow: 1;
-  margin: 0 6px;
+}
+
+.header__image {
+  height: 33px;
+  width: 173px;
+  object-fit: contain;
+  margin-bottom: 41px;
+}
+
+@media screen and (max-width: 620px) {
+  .header__image {
+    margin-left: 27px;
+    height: 24px;
+    width: 126px;
+    margin-bottom: 32px;
+  }
 }
