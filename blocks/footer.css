@@ -9,10 +9,15 @@
   font-size: 18px;
   color: #545454;
 }
-
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 653px) {
   .footer__copyright {
-    margin-left: 83px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .footer__copyright {
+    margin-left: 23px;
   }
 }
 
