@@ -1,5 +1,8 @@
 # Project 3: Around The U.S.
 
+Functionality: Around The U.S. displays elements in a grid pattern with responsive properties that allow it to change display dimensions when the viewport expands and contracts.  
+Technologies used: Grid and media queries have been applied to this website, and are the rules needed to apply the responsive design.
+
 ### Overview
 
 - Intro
