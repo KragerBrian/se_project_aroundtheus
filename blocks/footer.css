@@ -7,8 +7,7 @@
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: rgb(84, 84, 84);
-  opacity: 0.7;
+  color: rgb(84, 84, 84, 0.7);
   margin: 0;
   line-height: 18px;
 }
@@ -18,14 +17,10 @@
   }
 }
 
-@media screen and (max-width: 652px) {
-  .footer__copyright {
-    margin-left: 23px;
-  }
-}
-
 @media screen and (max-width: 620px) {
   .footer__copyright {
     margin-left: 15px;
+    line-height: 16.94px;
+    font-size: 14px;
   }
 }

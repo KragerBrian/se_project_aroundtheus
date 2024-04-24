@@ -3,6 +3,8 @@
 Functionality: Around The U.S. displays elements in a grid pattern with responsive properties that allow it to change display dimensions when the viewport expands and contracts.  
 Technologies used: Grid and media queries have been applied to this website, and are the rules needed to apply the responsive design.
 
+For screenshots of projects and features, pleas refer to the readme-images folder.
+
 ### Overview
 
 - Intro
@@ -25,3 +27,6 @@ Good luck and have fun!
 
 Link to project video:
 https://youtu.be/aAc8P4E1tkM
+
+Link to GitHub pages:
+https://kragerbrian.github.io/se_project_aroundtheus/
