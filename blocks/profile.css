@@ -101,10 +101,15 @@
     line-height: 14px;
     justify-self: center;
     margin-bottom: 36px;
+    margin-top: 14px;
     max-width: 282px;
   }
   .profile {
     flex-direction: column;
     margin-bottom: 36px;
+  }
+  .profile__title {
+    font-size: 22px;
+    line-height: 22px;
   }
 }
