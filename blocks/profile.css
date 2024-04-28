@@ -94,11 +94,12 @@
     width: 282px;
   }
   .profile__image {
-    margin: 0;
+    margin-bottom: 30px;
+    margin-right: 0;
   }
   .profile__description {
     font-size: 14px;
-    line-height: 14px;
+    line-height: 16.9px;
     justify-self: center;
     margin-bottom: 36px;
     margin-top: 14px;
@@ -110,6 +111,6 @@
   }
   .profile__title {
     font-size: 22px;
-    line-height: 22px;
+    line-height: 26.63px;
   }
 }
