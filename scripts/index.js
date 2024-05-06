@@ -25,6 +25,6 @@ const cardData = [
   },
 ];
 
-const initalCards = [cardData];
+const initialCards = [cardData];
 
-console.log(initalCards);
+console.log(initialCards);
