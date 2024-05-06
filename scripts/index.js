@@ -1,4 +1,4 @@
-const initalCards = [
+const cardData = [
   {
     title: "Yosemite Valley",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/yosemite.jpg",
@@ -24,5 +24,7 @@ const initalCards = [
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lago.jpg",
   },
 ];
+
+const initalCards = [cardData];
 
 console.log(initalCards);
