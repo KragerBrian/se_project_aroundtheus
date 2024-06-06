@@ -32,9 +32,9 @@ const profileEditCloseButton = document.querySelector(
 );
 
 profielEditButton.addEventListener("click", () => {
-  profileEditModal.classList.remove("modal__hidden");
+  profileEditModal.classList.remove("modal_hidden");
 });
 
 profileEditCloseButton.addEventListener("click", () => {
-  profileEditModal.classList.add("modal__hidden");
+  profileEditModal.classList.add("modal_hidden");
 });
