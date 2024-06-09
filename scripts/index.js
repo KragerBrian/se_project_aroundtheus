@@ -31,10 +31,20 @@ const profileEditCloseButton = document.querySelector(
   "#profile-edit-close-button"
 );
 
+const profileTitle = document.querySelector("#profile-title");
+const profileDescription = document.querySelector("#profile-description");
+const profileTitleInput = document.querySelector("#profile-title-input");
+const profileDescriptionInput = document.querySelector(
+  "#profile-description-input"
+);
+
 profielEditButton.addEventListener("click", () => {
-  profileEditModal.classList.remove("modal_hidden");
+  profileTitleInput.value = profileTitle.textContent;
+  profileDescriptionInput.value = profileDescription.textContent;
+
+  profileEditModal.classList.remove("modal_opened");
 });
 
 profileEditCloseButton.addEventListener("click", () => {
-  profileEditModal.classList.add("modal_hidden");
+  profileEditModal.classList.add("modal_opened");
 });

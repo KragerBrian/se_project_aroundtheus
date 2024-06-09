@@ -10,7 +10,7 @@
   padding: 0 19px;
 }
 
-.modal_hidden {
+.modal_opened {
   display: none;
 }
 
@@ -90,9 +90,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
-}
-
-.modal__opened {
 }
 
 @media screen and (max-width: 620px) {
