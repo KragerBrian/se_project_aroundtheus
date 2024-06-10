@@ -11,10 +11,6 @@
   visibility: hidden;
 }
 
-/* .modal_hidden {
-  display: none;
-} */
-
 .modal_opened {
   visibility: visible;
 }
