@@ -52,9 +52,11 @@ function getCardElement(cardData) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImageEl = cardElement.querySelector(".card__image");
   const cardTextEl = cardElement.querySelector(".card__text");
-
+  // setting text of h2 to cardData.name
   cardTextEl.textContent = cardData.name;
+  // setting source for <img> tag inside of <template>
   cardImageEl.src = cardData.link;
+  // setting alt for <img> tag inside of <template>
   cardImageEl.alt = cardData.name;
   return cardElement;
 }
@@ -77,7 +79,10 @@ profileEditCloseButton.addEventListener("click", closePopup);
 
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
 
+// this is our "for loop".  For every item in initialCards
 initialCards.forEach((cardData) => {
+  // getCardElement clones our cardTemplate, and saves result to cardElemenet (specifically defined in THIS function)
   const cardElement = getCardElement(cardData);
+  // Taking result of line 85, and inserting said result into <ul> on line 42 in index.html
   cardListEl.append(cardElement);
 });
